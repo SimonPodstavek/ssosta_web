@@ -1,0 +1,17 @@
+#logo {
+  height: 8vh;
+  width: auto;
+}
+
+.carousel-item {
+  height: 60vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+}
+
+.photo-carousel {
+  margin-top: 5vh !important;
+  width: 80vw;
+  margin: 0;
+}/*# sourceMappingURL=index.css.map */
