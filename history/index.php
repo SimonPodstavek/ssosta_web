@@ -22,22 +22,35 @@
       </nav>
   </div>
 <div>
-    <h1>História školy</h1>
+
+<h1 style="margin: 20px 20px 20px 20px;">História školy</h1>
+
+<div class="col-9" style="margin-top:20px justify-content-center" >
+  <div style="padding: 20px 20px 20px 20px; border:1px solid #999999; margin-bottom:20px; border-radius:3px;">
+    <h4 id="list-item-1" style="font-style:bold;">Prečo sme začali</h4>
+    <p>Na našej škole ponúkame široký výber atraktívnych študijných odborov, ktoré majú vysokú mieru uplatniteľnosti absolventov v praxi. Sme presvedčení, že je dôležité zvoliť si odbor, ktorý poskytuje študentom perspektívu na trhu práce a ponúka zaujímavé kariérne príležitosti. Na základe dostupných štatistík o nezamestnanosti absolventov, ktoré nájdete na  webovej stránke CVTI (dostupné na <a href="https://www.cvtisr.sk/cvti-sr-vedecka-kniznica/informacie-o-skolstve/skolstvo/regionalne-skolstvo/aktualne-analyzy-nezamestnanosti-absolventov-strednych-skol.html?page_id=10648#">Nezamestnanosť absolventov</a> ), sme si vedomí dôležitosti zvoliť odbor, ktorý má perspektívu na trhu práce a ponúka zaujímavé kariérne príležitosti.</p>
+  </div>
+</div>
+
+
+<!-- <h1>História školy</h1>
 <p>V posledných rokoch sa čoraz intenzívnejšie  hovorí o nevyhnutnej reforme  školstva a my sme sa rozhodli nehovoriť, ale realizovať túto reformu v praxi. Zástupcovia manažmentu Tatranskej akadémie n.o. Poprad už v roku 2008 začali  budovať privátnu školu, ktorá s predstihom reaguje na požiadavky trhu práce, pripravuje študentov na získanie medzinárodných priemyselných Cisco a jazykových Cambridge certifikátov, úzko spolupracuje s univerzitnou a podnikateľskou sférou. Už na začiatku sme si povedali, že chceme byť školou inou a začali sme pracovať na nových študijných odboroch, ktoré nie sú na žiadnej strednej škole na Slovensku a sú postavené na nových princípoch.</p>
+ -->
 
-</div>
 
-    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-  <div class="toast-header">
-    <img src="..." class="rounded me-2" alt="...">
-    <strong class="me-auto">Bootstrap</strong>
-    <small class="text-body-secondary">11 mins ago</small>
-    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+
+
+  <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+      <img src="..." class="rounded me-2" alt="...">
+      <strong class="me-auto">Bootstrap</strong>
+      <small class="text-body-secondary">11 mins ago</small>
+      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">
+      Hello, world! This is a toast message.
+    </div>
   </div>
-  <div class="toast-body">
-    Hello, world! This is a toast message.
-  </div>
-</div>
 <?php
 include_once '../footer/footer.php';
 ?>
